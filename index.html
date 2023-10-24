@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap"
+      rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container__1 " id="home">
+      <!-- navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="img__div">
+            <a class="navbar-brand " href="https://www.marvel.com"
+              target="_blank">
+              <img
+                src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1.jpg"
+                alt="Bootstrap" width="100" height="50">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 me-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#store">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExample" class="carousel slide mt-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/9/70/651dcefa15773.jpg"
+              class="d-block w-100 img__2" alt="...">
+              
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/c/40/651dd06ddc72e.jpg"
+              class="d-block w-100 img__2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/9/30/650a7b6cbb871.jpg"
+              class="d-block w-100 img__2" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div
+        class=" d-flex  container-fluid heading flex-wrap justify-content-center main__font">
+        <span class="marvel_font">Marvel Comics</span>
+      </div>
+      <!-- store -->
+      <div class="mt-5 d-flex justify-content-evenly flex-wrap container-fluid" id="store">
+        <div>
+          <div class="card mt-3  border-0" style="width: 18rem;">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/50/651b158643236/clean.jpg"
+              class="card-img-top img-1" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1" alt="...">
+          </div>
+          <hr>
+          <div class="d-flex flex-column">
+            <span class="book_heading">G.O.D.S. First Look Infinity Comic (2023) #1</span>
+            <span class="fs-5">Published:</span>
+            <span class="">October 04, 2023</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="card mt-2 border-0" style="width: 18rem;">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/50/5b0f16d976240/clean.jpg"
+              class="card-img-top img-1" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2" alt="...">
+          </div>
+          <hr>
+         <div class="d-flex flex-column">
+            <span class="book_heading">Immortal Hulk (2018) #1
+            </span>
+            <span class="fs-5">Published:</span>
+              <span class="">June 06, 2018</span>
+         </div>
+        </div>
+
+        <div>
+          <div class="card mt-3 border-0" style="width: 18rem;">
+            <img
+              src="https://cdn.marvel.com/u/prod/marvel/i/mg/5/03/582382b737a22/clean.jpg"
+              class="card-img-top img-1" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3" alt="...">
+          </div>
+          <hr>
+          <div class="d-flex flex-column">
+            <span class="book_heading">Thanos (2016) #1</span>
+            <span class="fs-5">Published:</span>
+            <span class="">November 16, 2016</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- moda1 -->
+      <div>
+        <div class="modal fade" id="exampleModal1" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">G.O.D.S. First Look Infinity Comic (2023) #1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <img class="img-fluid "
+                  src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/50/651b158643236/clean.jpg"
+                  alt>
+              </div>
+              <div class="modal-footer ">
+                <p class="fs-bold">Your exclusive sneak peek at G.O.D.S. #1 by Jonathan Hickman, Valerio Schiti, and Marte Gracia! The reinvention of the cosmology of the Marvel Universe starts here. Learn more about the The-Natural-Order-of-Things and The-Powers-That-Be—two forces in a delicate truce that together determine the balance of net magic and net science on this world and several others. But now…a Babylon Event has begun, and Doctor Strange must convene with the G.O.D.S. or risk losing control over the Earth he's sworn to protect...</p>
+                <button class="btn me-auto btn-info"><a
+                    class="me-auto text-decoration-none text-white" href="https://read.marvel.com/#/book/64482" target="_blank">Read Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Immortal Hulk (2018) #1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <img class="img-fluid "
+                  src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/50/5b0f16d976240/clean.jpg"
+                  alt>
+              </div>
+              <div class="modal-footer ">
+                <p>The FIRST issue of the Immortal Hulk! Al Ewing and Joe Bennett's critically-acclaimed and best-selling Immortal Hulk series kicks off here with THE RETURN OF BRUCE BANNER! You know Bruce Banner. He's quiet, calm, never complains. He's a man who believes he can use the darkest elements of his personality to do good in the world. If someone were to shoot him in the head...all he'd do is die. But the horror lives deeper. A horror that refuses to die. When night falls something other than the man gets up again. The horror is the Immortal Hulk.</p>
+                <button class="btn me-auto btn-info"><a
+                    class="me-auto text-decoration-none text-white" href="https://read.marvel.com/#/book/48246">Read Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Thanos (2016) #1</h5>
+                <button type="button" class="btn-close " data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <img class="img-fluid "
+                  src="https://cdn.marvel.com/u/prod/marvel/i/mg/5/03/582382b737a22/clean.jpg"
+                  alt>
+              </div>
+              <div class="modal-footer ">
+                <p>EVIL HAS BEEN UNLEASHED ON THE UNIVERSE. Thanos, possibly the most evil individual in the Marvel Universe, is back?and he's out for vengeance on all who would oppose him. Unfortunately for the Mad Titan, he's also heading for an unexpected reckoning?with his family. Take an ongoing walk on the dark side of the galaxy, following the deadly trail of destruction left in the wake of?THANOS!</p>
+                <button class="btn me-auto btn-info btn_buy"><a
+                    class="me-auto text-decoration-none text-white" href="https://read.marvel.com/#/book/43227">Read Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+      <!-- footer -->
+      <footer class="container-fluid d-flex   mt-5 footer_menu" id="aboutus">
+        <div class="footer_content pt-4 w-100">
+          <h4 class="ms-3">About Us</h4>
+          <div class="aboutus_content mt-3">
+            <p class="ms-3">It includes rich features & contents. You can use
+              any
+              layout from any demo anywhere.</p>
+            <p class="ms-3">Our company is completely creative, clean & 100%
+              responsive
+              website. Put your business into next level with us.</p>
+          </div>
+          <div class="Social_links mt-5">
+            <h4 class="ms-3 ">Social Links</h4>
+            <div class="soacial_logo mt-5">
+              <ul class="list-unstyled d-flex">
+                <li><a class href><i class="fa-brands fa-facebook  fa-2x ps-3"
+                      style="color: black;"></i></a></li>
+                <li><a href><i class="fa-brands fa-x-twitter fa-2x ps-3"
+                      style="color: black;"></i></a></li>
+                <li><a href><i class="fa-brands fa-linkedin fa-2x ps-3"
+                      style="color: black;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube fa-2x ps-3"
+                      style="color: black;"></i></a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="quick_contact ms-3 mt-5">
+            <h4>Quick Contact</h4>
+            <h6 class="mt-3 text-dark fs-4">Phone:</h6>
+            <ul class="list-unstyled mt-3">
+              <li>+917856490276</li>
+              <li>+919067593578</li>
+            </ul>
+
+            <h6 class="text-dark fs-4">Email</h6>
+            <ul class="list-unstyled mt-3">
+              <li>jabarajraju1590@email.com</li>
+              <li>company@email.com</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <footer class="d-flex justify-content-center footer-sec2 w-100 bg-dark ">
+        <h5 class="text-light mt-4">© All Rights Reserved by Jabaraj</h5>
+      </footer>
+    </div>
+  </body>
+  <!-- csn script -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,52 @@
+*{
+    font-family: 'Marvel', sans-serif;
+}
+.img-1:hover {
+    transform: translatey(-10px);
+    transition: all .17s ease-in-out;
+}
+
+.img__2 {
+    filter: brightness(40%);
+}
+
+@media  (max-width:600px){
+    /* .img__div{
+        margin-left: 35%;
+    } */
+}
+@media (max-width:600px),(min-width:600px){
+    .marvel_font{
+        font-family: 'Marvel', sans-serif;
+        font-size: 5rem;
+    }
+}
+
+@media (min-width:300px){
+    .marvel_font{
+        font-family: 'Marvel', sans-serif;
+        font-size: 3rem;
+    }
+}
+.book_heading{
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.para1,.para2{
+    width: 50%;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+.footer_menu{
+    background-color:#EC1D24;
+    color:#D3D3D3;
+}
+.footer-sec2{
+    height: 5rem;
+}
+.nav__bar{
+    top: 0;
+    position: fixed;
+}
